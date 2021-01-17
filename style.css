@@ -163,7 +163,7 @@ section .title{
     background: #111;
     transform: translateX(-50%);
 }
-.about .title::after{
+/* .about .title::after{
     content: "who I am";
     position:absolute;
     bottom: -185px;
@@ -173,6 +173,9 @@ section .title{
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
+} */
+.about .title{
+    border-bottom: 4px solid #111;
 }
 .about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content{
     display: flex;
