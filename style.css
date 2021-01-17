@@ -30,7 +30,7 @@ html{
 }
 .navbar .max-width{
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
 }
 .navbar .logo a{
