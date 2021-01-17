@@ -153,7 +153,7 @@ section .title{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-.about .title::before{
+/* .about .title::before{
     content: "";
     position:absolute;
     bottom: -170px;
@@ -162,8 +162,8 @@ section .title{
     height: 3px;
     background: #111;
     transform: translateX(-50%);
-}
-/* .about .title::after{
+} 
+ .about .title::after{
     content: "who I am";
     position:absolute;
     bottom: -185px;
