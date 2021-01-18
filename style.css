@@ -672,10 +672,50 @@ footer span a:hover{
         width: 350px;
         
     }
+	#popup{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top:25px;
+        width: 70%;
+        padding: 10px;
+        box-shadow: 0 5px 30px rgba(0,0,0,.3);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
 }
 @media (max-width: 991px){
     .max-width{
         padding: 0 50px;
+    }
+	#popup{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top:25px;
+        width: 70%;
+        padding: 10px;
+        box-shadow: 0 5px 30px rgba(0,0,0,.3);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
     }
 }
 @media (max-width: 947px){
@@ -744,6 +784,26 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+	#popup{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top:25px;
+        width: 70%;
+        padding: 10px;
+        box-shadow: 0 5px 30px rgba(0,0,0,.3);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
 }
 @media (max-width: 690px){
     .max-width{
@@ -761,6 +821,26 @@ footer span a:hover{
     .services .serv-content .card, .skills .skills-content .column{
         width: 100%;
     }
+	#popup{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top:25px;
+        width: 70%;
+        padding: 10px;
+        box-shadow: 0 5px 30px rgba(0,0,0,.3);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
 }
 @media (max-width: 500px){
     .home .home-content .text-2{
@@ -768,5 +848,25 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+	#popup{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top:25px;
+        width: 70%;
+        padding: 10px;
+        box-shadow: 0 5px 30px rgba(0,0,0,.3);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
     }
 }
