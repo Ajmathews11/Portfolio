@@ -369,7 +369,7 @@ section .title{
     height: 100%;
     left: 0;
     top: 0;
-    background: green;
+    background: #33ff00;
 
 }
 .skills .skills-content .right .html::before{
