@@ -608,23 +608,23 @@ section .title{
     height: 47px;
     width: 170px;
 }
-.contact .right form .button button{
+.contact .right form .button #send button{
     height: 100%;
     width: 100%;
     border: 2px solid crimson;
-    background: #fff;
-    color: crimson;
+    background: crimson;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-.contact .right form .button button:hover{
-    color: #fff;
-    background: crimson;
+.contact .right form .button #send button:hover{
+    color: crimson;
+    background: #fff;
 }
 
-/* .contact .right form .btn button{
+.contact .right form .button #reset button{
     height: 100%;
     width: 40%;
     border: 2px solid crimson;
@@ -635,11 +635,11 @@ section .title{
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-.contact .right form .btn button:hover{
+.contact .right form .button #reset button:hover{
     color: #fff;
     background: crimson;
 }
- */
+
 
 
 
