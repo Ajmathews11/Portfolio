@@ -608,7 +608,7 @@ section .title{
     height: 47px;
     width: 170px;
 }
-.contact .right form .button #send button{
+#send button{
     height: 100%;
     width: 100%;
     border: 2px solid crimson;
@@ -619,12 +619,12 @@ section .title{
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-.contact .right form .button #send button:hover{
+#send button:hover{
     color: crimson;
     background: #fff;
 }
 
-.contact .right form .button #reset button{
+#reset button{
     height: 100%;
     width: 40%;
     border: 2px solid crimson;
@@ -635,7 +635,7 @@ section .title{
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-.contact .right form .button #reset button:hover{
+#reset button:hover{
     color: #fff;
     background: crimson;
 }
