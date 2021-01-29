@@ -621,12 +621,12 @@ section .title{
 }
 #send button:hover{
     color: crimson;
-    background: #fff;
+    background: none;
 }
 
 #reset button{
     height: 100%;
-    width: 40%;
+    width: 100%;
     border: 2px solid crimson;
     background: #fff;
     color: crimson;
@@ -639,6 +639,7 @@ section .title{
     color: #fff;
     background: crimson;
 }
+
 
 
 
