@@ -626,7 +626,7 @@ section .title{
 
 .contact .right form .btn button{
     height: 100%;
-    width: 100%;
+    width: 40%;
     border: 2px solid crimson;
     background: #fff;
     color: crimson;
