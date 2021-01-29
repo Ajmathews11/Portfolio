@@ -624,7 +624,7 @@ section .title{
     background: #fff;
 }
 
-.contact .right form .button-btn button{
+.contact .right form .button-btn{
     height: 100%;
     width: 100%;
     border: 2px solid crimson;
@@ -635,7 +635,7 @@ section .title{
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-.contact .right form .button-btn button:hover{
+.contact .right form .button-btn:hover{
     color: #fff;
     background: crimson;
 }
